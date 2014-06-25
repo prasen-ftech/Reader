@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  s.summary = 'The open source PDF file reader/viewer for iOS.'
  s.homepage = 'http://www.vfr.org/'
  s.authors = { "Julius Oklamcak" => "joklamcak@gmail.com" }
- s.source = { :git => 'https://github.com/vfr/Reader.git', :tag => "v#{s.version}" }
+ s.source = { :git => 'https://github.com/prasen-ftech/Reader.git' }
  s.platform = :ios
  s.ios.deployment_target = '5.0'
  s.source_files = 'Sources/**/*.{h,m}'
