@@ -36,6 +36,7 @@
 @property (nonatomic, strong, readonly) NSMutableIndexSet *bookmarks;
 @property (nonatomic, strong, readonly) NSString *fileName;
 @property (nonatomic, strong, readonly) NSString *password;
+@property (nonatomic, strong) NSString *fileTitle;
 @property (nonatomic, strong, readonly) NSURL *fileURL;
 
 + (ReaderDocument *)withDocumentFilePath:(NSString *)filename password:(NSString *)phrase;
