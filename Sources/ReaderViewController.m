@@ -310,7 +310,8 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-
+    [self.navigationController.navigationBar setHidden:YES];
+    [self setEdgesForExtendedLayout:UIRectEdgeNone];
 	assert(document != nil); // Must have a valid ReaderDocument
 
 	self.view.backgroundColor = [UIColor grayColor]; // Neutral gray
